@@ -7,10 +7,21 @@
 
 <body>
     <h1>Meus Contatos</h1>
-    <ul>
-        <li>Telefone: (21) 99999-9999</li>
-        <li>E-mail: teste@teste.com</li>
-    </ul>
+    <p>Endereço: Avenida Ayrton Senna, 2000 Barra da Tijuca</p>
+    <p>Telefone: (21) 99999-9999</p>
+    <p>Email: teste@tipscode.com.br</p>
+
+    <form action="mailto:teste@tipscode.com.br" method="post" enctype="text/plain">
+        <label>Nome Completo: </label> <br />
+        <input type="text" name="Nome" /> <br /> <br />
+
+        <label>Email: </label> <br />
+        <input type="email" name="email" /> <br /> <br />
+
+        <label>Sua Mensagem</label> <br />
+        <textarea name="Mensagem" cols="30" rows="10"></textarea> <br />
+        <input type="submit">
+    </form>
     
     <a href="/index.html"><h2>Início</h2></a>
     <a href="/content/materiais.html"><h2>Materiais</h2></a>
