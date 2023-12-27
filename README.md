@@ -1,6 +1,7 @@
 Escola TipsCode <br />
 Curso FullStack Turbo
 
+<strong>Módulo 1</strong> HTML
 Começo: 24/12/2023 <br />
 Fim: 27/12/2023
 
